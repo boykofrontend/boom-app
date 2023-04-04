@@ -33,7 +33,7 @@ export const getProducts = createAsyncThunk(
         products.forEach(({
           id, name, price, included,
         }) => {
-          if (response.data.some((p) => p.id === id && hasParent)) { // поговорить с Серым об этом, стоит ли оставить коммент
+          if (response.data.some((p) => p.id === id && hasParent)) {
             acc = [...acc];
           } else {
             acc.push({
@@ -49,7 +49,6 @@ export const getProducts = createAsyncThunk(
             acc = [...acc, ...getUpdatedProducts(included, true)];
           }
         });
-        // поговорить с Серым об этом, стоит ли оставить коммент
         return uniqBy(acc, 'id');
       };
 
