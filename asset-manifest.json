@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/boom-app/static/css/main.f6d67c25.css",
+    "main.js": "/boom-app/static/js/main.6af2ad1b.js",
+    "static/js/787.38b30084.chunk.js": "/boom-app/static/js/787.38b30084.chunk.js",
+    "index.html": "/boom-app/index.html",
+    "main.f6d67c25.css.map": "/boom-app/static/css/main.f6d67c25.css.map",
+    "main.6af2ad1b.js.map": "/boom-app/static/js/main.6af2ad1b.js.map",
+    "787.38b30084.chunk.js.map": "/boom-app/static/js/787.38b30084.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6d67c25.css",
+    "static/js/main.6af2ad1b.js"
+  ]
+}
