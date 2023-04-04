@@ -1,0 +1,87 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "airbnb",
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:react/jsx-runtime"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "strict": 0,
+        "react/jsx-filename-extension": [
+            0
+        ],
+        "no-dupe-keys": "warn",
+        "react/forbid-prop-types": 0,
+        "import/no-unresolved": "off",
+        "react/no-danger": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react-hooks/exhaustive-deps": "off",
+        "@next/next/no-css-tags": "off",
+        "max-len": [
+            "warn",
+            {
+                "code": 120,
+                "tabWidth": 2,
+                "ignoreUrls": true,
+                "ignoreComments": true
+            }
+        ],
+        "react/button-has-type": [
+            0
+        ],
+        "import/extensions": "off",
+        "react/destructuring-assignment": [
+            0
+        ],
+        "react/function-component-definition": [
+            2,
+            {
+                "namedComponents": "arrow-function"
+            }
+        ],
+        "jsx-a11y/label-has-associated-control": "off",
+        "import/no-named-as-default": 0,
+        "jsx-a11y/anchor-is-valid": [
+            "error",
+            {
+                "components": [
+                    "Link"
+                ],
+                "specialLink": [
+                    "hrefLeft",
+                    "hrefRight"
+                ],
+                "aspects": [
+                    "invalidHref",
+                    "preferButton"
+                ]
+            }
+        ],
+        "jsx-a11y/no-autofocus": [
+            0,
+            {
+                "ignoreNonDOM": true
+            }
+        ],
+        "no-param-reassign": 0,
+        "import/no-extraneous-dependencies": "off",
+        "linebreak-style": 0,
+        "no-console": "warn",
+        "no-debugger": "warn",
+        "no-unused-vars": "warn"
+    }
+}
